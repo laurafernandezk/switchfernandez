@@ -3,11 +3,11 @@ import colors from "../../constants/colors";
 
 export const styles = StyleSheet.create({
     container: {
-        height:400,
-        margin:20,
+        height: 450,
+        margin: 20,
         alignItems: "center",
-        justifyContent: "center",
-        backgroundColor:colors.backgroundCard,
+        justifyContent: "space-around",
+        backgroundColor: colors.backgroundCard,
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -18,6 +18,4 @@ export const styles = StyleSheet.create({
 
         elevation: 13,
     },
-  
-
 })

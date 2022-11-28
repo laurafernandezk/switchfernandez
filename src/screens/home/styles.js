@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import colors from "../../constants/colors";
+import fonts from "../../constants/fonts";
 
 export const styles = StyleSheet.create({
     container: {
@@ -10,12 +11,18 @@ export const styles = StyleSheet.create({
     buttonContainer: {
         flexDirection: "row",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        marginBottom:20
+    },
+    text:{
+        fontSize:20,
+        marginTop: 20,
+        fontFamily: fonts.bold
     },
     image: {
         width: 200,
-        height: 200,
-        objectFit: "cover"
+        height: 300,
+        resizeMode: "cover"
 
     }
 
